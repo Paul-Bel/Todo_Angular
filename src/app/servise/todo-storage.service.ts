@@ -7,8 +7,8 @@ import {TodoModel} from "../models/todo-model";
 export class TodoStorageService {
   todoItems: TodoModel[] = [
     {title: 'Angular'},
-    {title: 'Angular2222222'},
-    {title: 'Angular11111'},
+    {title: 'JS/TS'},
+    {title: 'React'},
   ];
   constructor() { }
 
