@@ -15,6 +15,7 @@ export class TodoInputComponent implements OnInit {
   ngOnInit(): void {
   }
   submitTodo(){
+    if(this.todoTitle.trim())
     this.todoTitleSubmit.emit(this.todoTitle)
     this.todoTitle = ''
   }
